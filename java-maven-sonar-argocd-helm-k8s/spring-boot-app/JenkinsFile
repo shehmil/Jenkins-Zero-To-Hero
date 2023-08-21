@@ -29,6 +29,7 @@ pipeline {
         }
       }
     }
+             // building satge for shehmil
     stage('Build and Push Docker Image') {
       environment {
         DOCKER_IMAGE = "shehmil/ultimate-cicd:${BUILD_NUMBER}"
