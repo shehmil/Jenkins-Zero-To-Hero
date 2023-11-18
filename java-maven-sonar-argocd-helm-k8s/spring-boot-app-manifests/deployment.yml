@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: shehmil/ultimate-cicd:28
+        image: shehmil/ultimate-cicd:30
         ports:
         - containerPort: 8080
