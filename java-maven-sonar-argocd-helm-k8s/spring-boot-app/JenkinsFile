@@ -6,7 +6,7 @@ pipeline {
  //   }
 
   agent any
-  }
+//  }
   stages {
     stage('Checkout') {
       steps {
@@ -79,5 +79,5 @@ sh 'docker push shehmil/ultimate-cicd:${BUILD_NUMBER}'
             }
         }
     }
-//  }
+  }
 }
